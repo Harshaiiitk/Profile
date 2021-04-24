@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+section.open {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./background1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav {
+  height: 50px;
+  left: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li::after {
+  content: "";
+  background: #f44336;
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: auto;
+}
+nav ul li:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+nav ul li a {
+  color: rgb(7, 147, 150);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 2px;
+}
+nav ul li a:hover {
+  color: azure;
+  transition: 0.75s;
+}
+/* p {
+  margin-top: 10px;
+}
+h2 {
+  margin-top: 50px;
+} */
+h1#resume {
+  font-size: 50px;
+  color: rgb(18, 177, 110);
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section#profile {
+  display: block;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(15, 194, 54, 0.6),
+      rgba(15, 194, 164, 0.6)
+    ),
+    url(./resume.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div.centre {
+  /* width: 80vw; */
+  margin: 0, auto;
+  /* margin-top: 5rem; */
+  text-align: center;
+  padding: 5rem 0;
+}
+h2#Profile {
+  padding: 30px;
+  /* margin-bottom: 30px; */
+  font-size: 30px;
+}
+/*
+img {
+  align-items: center;
+  justify-content: center;
+  transform: translate(60%, 60%);
+} */
+img {
+  padding-bottom: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: cornsilk;
+  padding: 0.25rem;
+  border: 1px solid navajowhite;
+  box-shadow: deeppink;
+}
+section#skills {
+  display: block;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(15, 194, 54, 0.6),
+      rgba(15, 194, 164, 0.6)
+    ),
+    url(./skils.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centre2 {
+  text-align: center;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.submenu1 {
+  display: none;
+}
+.open nav ul li:hover .submenu1 {
+  display: block;
+  position: absolute;
+  background: rgb(9, 239, 243);
+  /* margin-top: 15px;
+  margin-left: -15px; */
+}
+/* nav ul li:hover.submenu1 ul {
+  display: block;
+  margin: 10px;
+} */
+.open nav ul li:hover .submenu1 ul li {
+  display: block;
+  text-align: left;
+  /* margin: 10px; */
+}
+div.centre2 ul li {
+  /* list-style-type: none; */
+  font-size: 28px;
+}
+div.centre2 {
+  /* width: 100px; */
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
+  /* padding: 0 0 0 0; */
+  width: 30vw;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+nav div.mobicon .fa {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  nav ul li {
+    display: block;
+  }
+  nav {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
+.navigation {
+  position: fixed;
+  font-size: 30px;
+  display: block;
+  background-color: whitesmoke;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
+  /* margin-bottom: 5px; */
+  /* padding: 5px; */
+  bottom: 40%;
+  right: 0;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+.navigation ul {
+  width: 100%;
+}
+.navigation ul li {
+  /* margin: 2px; */
+  padding: 2px;
+  list-style-type: none;
+  border: 1px solid rgb(109, 35, 35);
+  box-sizing: border-box;
+}
+.navigation ul li:hover {
+  background-color: rgb(47, 30, 148);
+  transform: translate(-10px);
+  transition: 1s;
+}
+.navigation ul li:hover .fa {
+  color: white;
+}
+/* .navigation ul li a .icon {
+  display: block;
+  text-align: center;
+  line-height: 20px;
+} */
