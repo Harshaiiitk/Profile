@@ -120,7 +120,7 @@ section#summary {
       rgba(15, 194, 54, 0.6),
       rgba(15, 194, 164, 0.6)
     ),
-/*     url(./resume.jpg); */
+  url(./resume.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
