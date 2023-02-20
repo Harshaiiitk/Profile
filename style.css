@@ -112,6 +112,7 @@ section#skills {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 section#summary {
   display: block;
@@ -120,7 +121,7 @@ section#summary {
       rgba(15, 194, 54, 0.6),
       rgba(15, 194, 164, 0.6)
     ),
-  url(./resume.jpg);
+  url(./summary.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
