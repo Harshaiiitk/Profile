@@ -127,6 +127,19 @@ section#summary {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+section#contact {
+  display: block;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(15, 194, 54, 0.6),
+      rgba(15, 194, 164, 0.6)
+    ),
+    url(./contact.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .centre2 {
   text-align: center;
   padding: 5rem;
