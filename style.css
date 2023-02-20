@@ -121,7 +121,7 @@ section#summary {
       rgba(15, 194, 54, 0.6),
       rgba(15, 194, 164, 0.6)
     ),
-  url(./summary.jpg);
+    url(./summary.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
